@@ -1,0 +1,3 @@
+# Esta carpeta contiene los datasets ficticios generados
+# Los archivos CSV no se suben a git por motivos de seguridad (ver .gitignore)
+# Para generar los datos: python scripts/data_generator.py

@@ -18,7 +18,7 @@ El proyecto se centra en el análisis de patrones de compra de clientes y produc
 ## 🗂️ Estructura del Proyecto
 
 ```
-Nuevo_Proyecto_Analisis/
+Proyecto_Analisis_GREEN/
 ├── 📓 notebooks/                    # Jupyter Notebooks para análisis exploratorio
 │   ├── 01_analisis_inicial.ipynb   # Análisis exploratorio y generación de datos
 │   └── Limpieza_de_dataset_Greenmart.ipynb  # Proceso original de limpieza
@@ -26,7 +26,7 @@ Nuevo_Proyecto_Analisis/
 │   ├── data_generator.py           # Generador de datos ficticios
 │   └── preprocessing.py            # Funciones de limpieza y preprocesamiento
 ├── 📊 data/                        # Datasets ficticios generados
-│   └── greenmart_customers_products.csv
+│   └── greenmart_customers_products.csv (generado localmente)
 ├── 📋 reports/                     # Informes y documentación
 │   └── Informe_GreenMart_Dataset.pdf
 ├── 🔧 .gitignore                   # Configuración de archivos ignorados
@@ -44,7 +44,7 @@ Nuevo_Proyecto_Analisis/
 ```bash
 # Clonar el repositorio
 git clone <url-del-repositorio>
-cd Nuevo_Proyecto_Analisis
+cd Proyecto_Analisis_GREEN
 
 # Instalar dependencias
 pip install -r requirements.txt
