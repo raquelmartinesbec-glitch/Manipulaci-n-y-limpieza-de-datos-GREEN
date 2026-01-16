@@ -1,10 +1,10 @@
-# 🌿 Proyecto de Análisis y Limpieza de Datos - GreenMart Dataset
+# 🌿 Proyecto de Análisis y Limpieza de Datos - EcoMart Dataset
 
-Este repositorio contiene un flujo de trabajo completo para el análisis, manipulación y limpieza de datos basado en el dataset de GreenMart, una cadena de retail especializada en productos ecológicos.
+Este repositorio contiene un flujo de trabajo completo para el análisis, manipulación y limpieza de datos basado en el dataset de EcoMart, una cadena de retail especializada en productos ecológicos.
 
 ## 📋 Descripción del Proyecto
 
-El proyecto se centra en el análisis de patrones de compra de clientes y productos de GreenMart, implementando técnicas de limpieza de datos, análisis exploratorio y generación de datasets ficticios para preservar la confidencialidad de la información real.
+El proyecto se centra en el análisis de patrones de compra de clientes y productos de EcoMart, implementando técnicas de limpieza de datos, análisis exploratorio y generación de datasets ficticios para preservar la confidencialidad de la información real.
 
 ### 🔒 Confidencialidad y Privacidad de Datos
 
@@ -18,7 +18,7 @@ El proyecto se centra en el análisis de patrones de compra de clientes y produc
 ## 🗂️ Estructura del Proyecto
 
 ```
-Proyecto_Analisis_GREEN/
+Proyecto_Analisis_ECO/
 ├── 📓 notebooks/                    # Jupyter Notebooks para análisis exploratorio
 │   ├── 01_analisis_inicial.ipynb   # Análisis exploratorio y generación de datos
 │   └── Limpieza_de_dataset_Greenmart.ipynb  # Proceso original de limpieza
@@ -26,7 +26,7 @@ Proyecto_Analisis_GREEN/
 │   ├── data_generator.py           # Generador de datos ficticios
 │   └── preprocessing.py            # Funciones de limpieza y preprocesamiento
 ├── 📊 data/                        # Datasets ficticios generados
-│   └── greenmart_customers_products.csv (generado localmente)
+│   └── ecomart_customers_products.csv (generado localmente)
 ├── 📋 reports/                     # Informes y documentación
 │   └── Informe_GreenMart_Dataset.pdf
 ├── 🔧 .gitignore                   # Configuración de archivos ignorados
@@ -44,7 +44,7 @@ Proyecto_Analisis_GREEN/
 ```bash
 # Clonar el repositorio
 git clone <url-del-repositorio>
-cd Proyecto_Analisis_GREEN
+cd Proyecto_Analisis_ECO
 
 # Instalar dependencias
 pip install -r requirements.txt

@@ -7,7 +7,7 @@ from faker import Faker
 
 fake = Faker()
 
-# Estructura basada en el dataset real de Greenmart
+# Estructura basada en el dataset real de EcoMart
 columns = [
     ("customer_name", "str"),
     ("age", "int"),
@@ -63,5 +63,5 @@ def generate_row():
 
 data = [generate_row() for _ in range(N)]
 df = pd.DataFrame(data)
-df.to_csv("data/greenmart_customers_products.csv", index=False)
-print("Datos ficticios generados en data/greenmart_customers_products.csv")
+df.to_csv("data/ecomart_customers_products.csv", index=False)
+print("Datos ficticios generados en data/ecomart_customers_products.csv")
